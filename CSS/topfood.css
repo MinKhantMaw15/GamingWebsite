@@ -1,0 +1,167 @@
+.top-food{
+    color: white;
+    background-color: white;
+}
+
+.top-food-container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.header1{
+   font-size: 40px;
+   font-weight: 700px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   letter-spacing: 5px;
+
+}
+
+
+.header1 u:hover{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.top-food-box{
+    padding: 90px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 50px;
+}
+
+.top-food-content{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 100px;
+    background-color: #353535;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+a{
+    text-decoration: none;
+}
+
+.top-food-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.top-food-text{
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.top-food-country h3{
+    color: gray;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;   
+    font-size: 16px;
+}
+
+.top-food-title{
+    color: orange;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 10px 0px 3px 0px;
+}
+
+.top-food-discount{
+    display: flex;
+}
+
+.top-food-discount-box{
+    border: 1px solid red;
+    padding: 3px 5px;
+    border-radius: 4px;
+    background-color: orangered;
+}
+
+.top-food-discount-box2{
+    border: 1px solid red;
+    padding: 3px 5px;
+    border-radius: 4px;
+    background-color: red;
+}
+
+.top-food-discount-box3{
+    border: 1px solid blue;
+    padding: 3px 5px;
+    border-radius: 4px;
+    background-color:  blue;
+}
+
+.top-food-discount-box4{
+    border: 1px solid red;
+    padding: 3px 5px;
+    color: red;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: yellowgreen;
+}
+
+.top-food-realprice{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 100px;
+}
+
+
+#hover:hover{
+    opacity: 0.9;
+    transition: 0.8s;
+    background-color: black;
+}
+
+
+#hover2:hover{
+    opacity: 0.9;
+    transition: 0.8s;
+    background-color: black;
+}
+
+#hover3:hover{
+    opacity: 0.9;
+    transition: 0.8s;
+    background-color: black;
+}
+
+#hover4:hover{
+    opacity: 0.9;
+    transition: s;
+    background-color: black;
+}
+
+img:hover{
+    filter: grayscale(1);
+}
+
+.discount{
+    color: lightseagreen;
+    box-shadow: lightblue 2px 2px;
+    position: absolute;
+    right: 20px;
+    
+}
+.discount:hover{
+    color: blue;
+}
+@media(max-width: 1200px){
+    .top-food-container{
+        width: 90%;
+    }
+}
+@media(max-width: 850px){
+    .top-food-box{
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px;
+    }
+}

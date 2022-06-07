@@ -1,0 +1,176 @@
+.game-discount{
+    margin: 0;
+    padding: 120px 0;
+    background-color: white;
+}
+.game-container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.header2{
+    color: black;
+    border: 1px solid black;
+    width: 700px;
+    margin: 0 auto;
+    padding: 100px 0;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+.game-box{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;   
+     grid-template-rows: 200px 200px; 
+     gap: 0px 20px;
+     margin-top: 50px;
+     row-gap: 10px;
+}
+.game1{
+    border: 1px solid black;
+    width: 200px;
+    height: 300px;
+    color: black;
+    border-radius: 10px;
+    background-color: black;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+}
+.game2{
+    border: 1px solid black;
+    width: 200px;
+    height: 300px;
+    color: black;
+    background-color: black;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+}
+.game3{
+    border: 1px solid black;
+    width: 200px;
+    height: 300px;
+    color: black;
+    background-color: black;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+}
+.game4{
+    border: 1px solid black;
+    width: 200px;
+    height: 300px;
+    color: black;
+    background-color: black;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+}
+.game-box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.game-source h4{
+     text-align: center;
+     font-style: italic;
+     color: white;
+}
+.game-source2 h4{
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+.game-source3 h4{
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+.game-source4 h4{
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+.game-source h1{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.game-source2 h1{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.game-source3 h1{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.game-source4 h1{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.game-price h3{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+.game-price h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+.game1:hover{
+    filter: grayscale(1);
+    background-color: black;
+    width: 202px;
+}
+.game2:hover{
+    filter: grayscale(1);
+    background-color: black;
+    width: 202px;
+}
+.game3:hover{
+    filter: grayscale(1);
+    background-color: black;
+    width: 202px;
+}
+.game4:hover{
+    filter: grayscale(1);
+    background-color: black;
+    width: 202px;
+}
+@media(max-width: 1200px){
+    .game-container{
+        width:90%;
+    }
+}
+@media(max-width: 850px){
+    .game-box{
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px;
+        padding: 20px 0;
+        margin-left: 50px;
+    }
+}

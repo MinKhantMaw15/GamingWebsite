@@ -1,0 +1,295 @@
+.order-step{
+    border: 2px #00ff1d solid;
+    margin-top: 30px;
+    color: black;
+    background-color: #00ff1d;
+}
+
+
+.order-step-container{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.order-step-st{
+    border: 1px solid white;
+    width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+}
+
+.order-step-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.order-step-gd{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15px 0;
+    margin-top: 30px;
+    column-gap: 55px;
+}
+
+.order-step-gd .order-step-2 img,
+.order-step-gd .order-step-3 img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.order-step-gd div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.order-step .order-step-container h3{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px 0;
+    text-align: center;
+}
+.order-step .order-step-container p{
+    background-color: black;
+    color: #00ff1d;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.order-step .order-step-container a{
+    text-decoration: none;
+}
+
+.order-step-gd .order-step-2,
+.order-step-gd .order-step-3{
+    border: 1px white solid;
+    background-color: black;
+    width: 500px;
+}
+
+.order-step-st:hover{
+    width: 453px;
+    height: auto;
+}
+.order-step-2:hover{
+    width: 498px;
+    height: auto;
+}
+.order-step-3:hover{
+    width: 498px;
+    height: auto;
+}
+ 
+@media(max-width: 1150px){
+    .order-step-container{
+        width: 90%;
+
+    }
+    .order-step-gd-2{width: 90%;}
+}
+@media(max-width: 850px){
+    .order-step-gd{
+        grid-template-columns: 1fr;
+        align-items: center;
+        gap: 20px 0;
+    }
+    .order-step-2{
+        margin: 0 auto;
+    }
+    .order-step-3{
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 500px){
+    .order-step-st{
+        width: 300px;
+    }
+    .order-step-st:hover{
+        width: 302px;  
+      }
+    .order-step-2{
+        width: 350px;
+    }
+    .order-step-gt{
+        width: 350px;
+    }
+    .order-step-2:hover{
+        width: 352px;
+    }
+    .order-step-3:hover{
+        width: 352px;
+    }
+}
+
+.order-step-gd-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    padding: 15px 0;
+    width: 300px;
+    column-gap: 100px;
+}
+.order-step-gd-2 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.order-step-4{
+    background-color: black;
+    border: 1px solid white;
+    width: 300px;
+}
+.order-step-5{
+    background-color: black;
+    border: 1px solid white;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.order-step-6{
+    background-color: black;
+    border: 1px solid white;
+    width: 310px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.order-step-7{
+    background-color: black;
+    border: 1px solid white;
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.order-step-8{
+    background-color: black;
+    border: 1px solid white;
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.order-step-4:hover{
+    width: 305px;
+}
+
+.order-step-5:hover{
+    width: 305px;
+}
+
+.order-step-6:hover{
+    width: 311px;
+}
+
+.order-step-7:hover{
+    width: 745px;
+}
+
+.order-step-8:hover{
+    width: 745px;
+}
+@media(max-width: 850px){
+    .order-step-gd-2{
+        grid-template-columns: 1fr;
+    }
+    .order-step-4{margin-left: 150px;}
+    .order-step-5{margin-left: 150px;}
+    .order-step-6{margin-left: 150px;}
+    .order-step-7{width: 500px;
+                  margin-right: 100px;}
+    .order-step-8{width: 500px;
+                    margin-right: 100px;}
+    .order-step-7:hover{width: 490px;}
+    .order-step-8:hover{
+        width: 490px;
+    }
+}
+
+.order-step-st{
+    filter: grayscale(0);
+}
+.order-step-st:hover{
+    filter: grayscale(1);
+}
+.order-step-2,
+.order-step-3{
+    filter: grayscale(0);
+}
+.order-step-2:hover{
+    filter: grayscale(1);
+}
+.order-step-3:hover{
+    filter: grayscale(1);
+}
+
+.order-step-4,
+.order-step-5{
+    filter: grayscale(0);
+}
+
+.order-step-6,
+.order-step-7{
+    filter: grayscale(0);
+}
+.order-step-8{
+    filter: grayscale(0);
+}
+
+.order-step-2:hover{
+    filter: grayscale(1);
+}
+
+.order-step-3:hover{
+    filter: grayscale(1);
+}
+
+.order-step-4:hover{
+    filter: grayscale(1);
+}
+
+.order-step-5:hover{
+    filter: grayscale(1);
+}
+
+.order-step-6:hover{
+    filter: grayscale(1);
+}
+
+.order-step-7:hover{
+    filter: grayscale(1);
+}
+
+.order-step-8:hover{
+    filter: grayscale(1);
+}
+
+.menu-bar-123{
+    text-align: center;
+}
+
+.menu-bar-12 li{
+    display: inline-flex;
+} 
+.menu-bar-12 li a{
+    color: white;
+    padding: 5px 10px;
+    background-color: black;
+    border: 2px solid black;
+    margin-top: 80px;
+    border-radius: 4px;
+}
+.menu-bar-12 li a:hover{
+    background-color: #424242;
+    border: 2px solid #424242;
+}
+
+.menu-bar-12 li  a:active{
+    background-color: red;
+    border: 1px solid red;
+}
